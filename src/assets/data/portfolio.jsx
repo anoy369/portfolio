@@ -1,5 +1,5 @@
-import Image from './image.jpg'
-const data=[
+import Image from '../image.jpg'
+const portfolio=[
     {
         id: 1,
         image: Image,
@@ -37,4 +37,4 @@ const data=[
     }
 ]
 
-export default data;
+export default portfolio;
