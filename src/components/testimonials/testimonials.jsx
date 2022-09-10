@@ -3,7 +3,7 @@ import './testimonials.css'
 import testimonials from '../../assets/data/testimonials'
 
 // swiper slider
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
