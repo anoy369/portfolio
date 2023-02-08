@@ -11,24 +11,32 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Web Design</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>PSD to Fully Responsive Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>XD to Fully Responsive Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Figma to Fully Responsive Website</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Image to Fully Responsive Website</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Cloning Website</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Website Redesign</p>
             </li>
           </ul>
         </article>
@@ -40,71 +48,79 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Online Store</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Web Portals</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Content Management System</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Learning Management System</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Hotel Management System</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>API Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress Theme Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress Plugin Development</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Web Development Consulting</p>
             </li>
           </ul>
         </article>
         
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Others</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>API Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress API Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress Migration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress Malware Cleaning</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Wordpress Database Cleaning</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Speed Optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet, consectetur</p>
+              <p>Onsite SEO</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Website Customization</p>
             </li>
           </ul>
         </article>

@@ -1,40 +1,13 @@
 import Image from '../image.jpg'
+import doctor from '../doctors directory.png'
 const portfolio=[
     {
         id: 1,
-        image: Image,
-        title: 'Item Title',
-        github: '#',
-        demo: '#'
+        image: doctor,
+        title: 'Doctors Directory',
+        github: '',
+        demo: 'https://doctors.anoy369.com/'
     },
-    {
-        id: 2,
-        image: Image,
-        title: 'Item Title',
-        github: '#',
-        demo: '#'
-    },
-    {
-        id: 3,
-        image: Image,
-        title: 'Item Title',
-        github: '#',
-        demo: '#'
-    },
-    {
-        id: 4,
-        image: Image,
-        title: 'Item Title',
-        github: '#',
-        demo: '#'
-    },
-    {
-        id: 5,
-        image: Image,
-        title: 'Item Title',
-        github: '#',
-        demo: '#'
-    }
 ]
 
 export default portfolio;

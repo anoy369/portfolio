@@ -1,3 +1,6 @@
+#portfolio{
+    /* display: none; */
+}
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

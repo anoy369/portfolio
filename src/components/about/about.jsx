@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I am an aspiring tech enthusiast with 3+ years of Frontend development experience. Full stack hand code experience in web development using a variety of technologies such as HTML/HTML5, CSS2/CSS3, JavaScript, jQuery, AJAX, JSON, Angular JS, React JS, Firebase, PHP, MySQL, and WordPress. Expert understanding of the UI design process and deliverables throughout the development lifecycle.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
