@@ -23,7 +23,7 @@ jobs:
       # Check that the build directory exists and contains the files you want to deploy
       - name: Check build directory
         run: |
-          cd build
+          ls -l build
       
       # Deploy the build files to Hostinger using FTP
       - name: Deploy to Hostinger
@@ -32,7 +32,7 @@ jobs:
           server: ftp.anoy369.com # Replace with your Hostinger server
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./build
+          local_dir: ./build/**
           remote_dir: /public_html # Replace with your Hostinger website directory
           exclude: |
             public/**
