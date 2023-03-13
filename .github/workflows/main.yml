@@ -13,7 +13,7 @@ jobs:
     steps:
       # Checkout the code from the GitHub repository
       - name: Checkout code
-        uses: actions/checkout@v3.3.0
+        uses: actions/download-artifact@v2
       
       # Install dependencies and build the React project
       - name: Install dependencies and build
