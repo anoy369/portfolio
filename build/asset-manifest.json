@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84cf503b.css",
+    "main.js": "/static/js/main.fd5808f3.js",
+    "static/media/me.webp": "/static/media/me.de240a4f6f651c37ee30.webp",
+    "static/media/cv.pdf": "/static/media/cv.db35bbb8369037fe7762.pdf",
+    "static/media/doctors directory.png": "/static/media/doctors directory.a464339395da8239b48d.png",
+    "static/media/client.webp": "/static/media/client.aa33b26aad482b4e4317.webp",
+    "static/media/image.jpg": "/static/media/image.3e16598970aaf2716fe7.jpg",
+    "static/media/David.webp": "/static/media/David.b4cfbc9bd908dfbded09.webp",
+    "static/media/me.avif": "/static/media/me.5666bfb2d75cefac8819.avif",
+    "static/media/Aneequa.webp": "/static/media/Aneequa.b066c7587abbd03ac1d6.webp",
+    "static/media/Azrael.webp": "/static/media/Azrael.549ce29c3a7aa0c39a54.webp",
+    "index.html": "/index.html",
+    "main.84cf503b.css.map": "/static/css/main.84cf503b.css.map",
+    "main.fd5808f3.js.map": "/static/js/main.fd5808f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84cf503b.css",
+    "static/js/main.fd5808f3.js"
+  ]
+}
