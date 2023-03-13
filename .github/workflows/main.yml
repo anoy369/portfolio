@@ -29,4 +29,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: ./build/
           remote_dir: /public_html # Replace with your Hostinger website directory
-          exclude: ./public, ./src, # Exclude any files or directories you don't want to deploy
+          exclude: |
+            public/**
+            src/**
