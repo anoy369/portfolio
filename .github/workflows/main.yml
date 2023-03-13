@@ -15,7 +15,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3.3.0
       
-      # Install dependencies and build the React project
+      # Install dependencies and build the React projec
       # - name: Install dependencies and build
       #   run: |
       #     npm run build
