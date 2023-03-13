@@ -9,11 +9,11 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-        
+
     steps:
       # Checkout the code from the GitHub repository
       - name: Checkout code
-        uses: actions/checkout@v2.4.4
+        uses: actions/checkout@v3.3.0
       
       # Install dependencies and build the React project
       - name: Install dependencies and build
