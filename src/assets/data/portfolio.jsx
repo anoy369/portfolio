@@ -4,8 +4,13 @@ const portfolio=[
     {
         id: 1,
         image: doctor,
-        title: 'Doctors Directory',
+        title: 'Doctors Directory with wordpress',
         demo: 'https://doctors.anoy369.com/'
+    },
+    {
+        id: 2,
+        title: 'Netflix with react',
+        github: 'https://github.com/anoy369/react-netflix',
     },
 ]
 
