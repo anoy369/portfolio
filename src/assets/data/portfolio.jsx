@@ -5,7 +5,6 @@ const portfolio=[
         id: 1,
         image: doctor,
         title: 'Doctors Directory',
-        github: '',
         demo: 'https://doctors.anoy369.com/'
     },
 ]
