@@ -39,3 +39,7 @@ jobs:
           exclude: |
             public/**
             src/**
+            .gitignore
+            package-lock.json
+            package.json
+            README.md
