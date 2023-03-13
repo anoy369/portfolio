@@ -20,7 +20,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp://anoy369.com
-        username: u279742808
-        password: ${{ secrets.FTP_PASSWORD }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
         local_dir: ./build
         remote_dir: public_html
