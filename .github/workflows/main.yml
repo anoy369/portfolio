@@ -1,1 +1,26 @@
-
+on:
+  push:
+    branches:
+      - main
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Install dependencies and build
+      run: |
+        npm install
+        npm run build
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ftp://anoy369.com
+        username: u279742808
+        password: ${{ secrets.FTP_PASSWORD }}
+        local_dir: ./build
+        remote_dir: public_html
