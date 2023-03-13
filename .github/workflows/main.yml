@@ -23,7 +23,7 @@ jobs:
       # Check that the build directory exists and contains the files you want to deploy
       - name: Check build directory
         run: |
-          ls -l build
+          cd build
       
       # Deploy the build files to Hostinger using FTP
       - name: Deploy to Hostinger
