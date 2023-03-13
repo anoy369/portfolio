@@ -9,6 +9,7 @@ const portfolio=[
     },
     {
         id: 2,
+        image: Image,
         title: 'Netflix with react',
         github: 'https://github.com/anoy369/react-netflix',
     },
