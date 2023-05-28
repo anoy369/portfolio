@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p>
-          Seeking a challenging position as a web developer to leverage my 4 years of expertise in software development. Skilled in hand coding for web development using HTML, CSS, JavaScript, jQuery, Angular JS, React JS, Firebase, node js, PHP, MySQL, and WordPress, I aim to contribute my thorough knowledge of the UI design process and outputs throughout the development lifecycle. With a strong background in API integration and development, I am eager to utilize my skills and experience to create dynamic and innovative web solutions. My objective is to collaborate with a forward-thinking team to deliver exceptional user experiences and drive technological advancements in the field of web development.
+          Are you in need of top-notch web application and software development services? Look no further! As a seasoned software engineer with four years of experience, I bring a wealth of expertise to the table. My skills span the entire web development stack, including hand coding using HTML, CSS, JavaScript, jQuery, Angular JS, React JS, Firebase, node.js, PHP, MySQL, and WordPress. With a strong focus on user interface design and a thorough understanding of the development lifecycle, I am committed to delivering exceptional results. I excel in seamlessly integrating APIs and developing robust solutions tailored to your specific requirements. Trust me to bring your ideas to life and create powerful web applications that will exceed your expectations. Let's collaborate and transform your vision into reality.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

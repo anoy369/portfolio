@@ -19,7 +19,7 @@ const Testimonials = () => {
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        className="container testimonials__container">
+        className="testimonials__container">
         {
           testimonials.map(({id, avatar, name, review}) => {
             return(
