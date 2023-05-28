@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p>
-          I am an aspiring tech enthusiast with 3+ years of Frontend development experience. Full stack hand code experience in web development using a variety of technologies such as HTML/HTML5, CSS2/CSS3, JavaScript, jQuery, AJAX, JSON, Angular JS, React JS, Firebase, PHP, MySQL, and WordPress. Expert understanding of the UI design process and deliverables throughout the development lifecycle.
+          Seeking a challenging position as a web developer to leverage my 4 years of expertise in software development. Skilled in hand coding for web development using HTML, CSS, JavaScript, jQuery, Angular JS, React JS, Firebase, node js, PHP, MySQL, and WordPress, I aim to contribute my thorough knowledge of the UI design process and outputs throughout the development lifecycle. With a strong background in API integration and development, I am eager to utilize my skills and experience to create dynamic and innovative web solutions. My objective is to collaborate with a forward-thinking team to deliver exceptional user experiences and drive technological advancements in the field of web development.
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
