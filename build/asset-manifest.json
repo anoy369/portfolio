@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.84cf503b.css",
-    "main.js": "/static/js/main.fd5808f3.js",
-    "static/media/me.webp": "/static/media/me.de240a4f6f651c37ee30.webp",
-    "static/media/cv.pdf": "/static/media/cv.db35bbb8369037fe7762.pdf",
+    "main.css": "/static/css/main.4c94667b.css",
+    "main.js": "/static/js/main.0fdaf273.js",
+    "static/media/anoy369.png": "/static/media/anoy369.8f9908ece1e45ae3c1a3.png",
+    "static/media/cv.pdf": "/static/media/cv.5f2b03f6513a0b7a3e4e.pdf",
+    "static/media/Real estate.png": "/static/media/Real estate.04e9f62fb59d2f013fe8.png",
+    "static/media/netflixclone.png": "/static/media/netflixclone.fe4d1ee1479697ca19ed.png",
     "static/media/doctors directory.png": "/static/media/doctors directory.a464339395da8239b48d.png",
+    "static/media/flagship.jpg": "/static/media/flagship.30b84a2235e97a1455f4.jpg",
+    "static/media/chess.jpg": "/static/media/chess.9a124496edbe1117fef2.jpg",
     "static/media/client.webp": "/static/media/client.aa33b26aad482b4e4317.webp",
     "static/media/image.jpg": "/static/media/image.3e16598970aaf2716fe7.jpg",
     "static/media/David.webp": "/static/media/David.b4cfbc9bd908dfbded09.webp",
@@ -12,11 +16,11 @@
     "static/media/Aneequa.webp": "/static/media/Aneequa.b066c7587abbd03ac1d6.webp",
     "static/media/Azrael.webp": "/static/media/Azrael.549ce29c3a7aa0c39a54.webp",
     "index.html": "/index.html",
-    "main.84cf503b.css.map": "/static/css/main.84cf503b.css.map",
-    "main.fd5808f3.js.map": "/static/js/main.fd5808f3.js.map"
+    "main.4c94667b.css.map": "/static/css/main.4c94667b.css.map",
+    "main.0fdaf273.js.map": "/static/js/main.0fdaf273.js.map"
   },
   "entrypoints": [
-    "static/css/main.84cf503b.css",
-    "static/js/main.fd5808f3.js"
+    "static/css/main.4c94667b.css",
+    "static/js/main.0fdaf273.js"
   ]
 }
