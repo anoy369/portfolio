@@ -9,18 +9,26 @@ import emailjs from 'emailjs-com';
 const Contact = () => {
   const form = useRef();
 
+ 
+
   const sendEmail = (e) => {
     e.preventDefault();
+    
+    document.querySelectorAll('.button').forEach((button) => {
+      button.classList.add('processing');
+    });
 
-    emailjs.sendForm('service_4m2ujdl', 'template_8lkj6fa', form.current, '9xK2bH4gVx6zn7EmK')
-      
+    emailjs
+      .sendForm('service_4m2ujdl', 'template_8lkj6fa', form.current, '9xK2bH4gVx6zn7EmK')
       .then((result) => {
-          console.log(result.text);
-          e.target.reset();
-      }, (error) => {
-          console.log(error.text);
+        console.log(result.text);
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
       });
   };
+
 
   return (
     <section id="contact">
@@ -54,7 +62,12 @@ const Contact = () => {
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your message" required></textarea>
-          <button type="submit" className="btn btn-primary">Send Message</button>
+          <button type="submit" className="button">
+            <span>Send Message</span>
+            <svg viewBox='0 0 15 13'>
+              <polyline points='2 6.5 6 10.5 13 2.5'></polyline>
+            </svg>
+          </button>
         </form>
       </div>
     </section>
