@@ -16,9 +16,9 @@ jobs:
         uses: actions/checkout@v3.3.0
       
       # Install dependencies and build the React project
-      - name: Install dependencies and build
-        run: |
-          npm run build
+      # - name: Install dependencies and build
+      #   run: |
+      #     npm run build
 
        # Move the build files to the public_html directory and remove the build director
       - name: Move build files to public_html directory
