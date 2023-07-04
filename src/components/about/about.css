@@ -44,6 +44,9 @@
     transition: var(--transition);
 }
 
+.about__card p{
+    margin: 0!important;
+}
 .about__card:hover{
     background: transparent;
     border-color: var(--color-primary-variant);
