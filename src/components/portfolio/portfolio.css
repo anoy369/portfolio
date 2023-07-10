@@ -31,7 +31,19 @@
 }
 
 .portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+    margin: 1rem 0 0 0
+}
+.portfolio__item p{
+    margin: 0 0 1.5rem 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.portfolio__item p span{
+    margin: 0 0 1.5rem 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-right: 10px;
 }
 
 .portfolio__item-cta{

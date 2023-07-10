@@ -10,13 +10,14 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          portfolio.map(({id, image, title, github, demo}) => {
+          portfolio.map(({id, image, title, github, demo, buildWith}) => {
             return(
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   {image ? <img src={image} alt={title} /> : ''}
                 </div>
                 <h3>{title}</h3>
+                <p>( {buildWith} )</p>
                 <div className="portfolio__item-cta">       
                   {github ? <a href={github} className="btn" target="_blank">Github</a> : ''}
                   {demo ? <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a> : ''}

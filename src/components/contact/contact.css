@@ -55,7 +55,6 @@ input, textarea{
 }
 
 .button {
-    --color: var(--color-bg);
     --background: var(--color-primary);
     --height: 41px;
     --width: 160px;
@@ -73,7 +72,7 @@ input, textarea{
     letter-spacing: 0.5px;
     font-size: 14px;
     font-weight: 700;
-    color: var(--color);
+    color: var(--color-bg);
     line-height: var(--height);
 }
 

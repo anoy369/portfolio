@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Me from '../../assets/me.avif'
+import Me from '../../assets/anoy.png'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -38,9 +38,7 @@ const About = () => {
             </article>            
           </div>
 
-          <p>
-          Are you in need of top-notch web application and software development services? Look no further! As a seasoned software engineer with four years of experience, I bring a wealth of expertise to the table. My skills span the entire web development stack, including hand coding using HTML, CSS, JavaScript, jQuery, Angular JS, React JS, Firebase, node.js, PHP, MySQL, and WordPress. With a strong focus on user interface design and a thorough understanding of the development lifecycle, I am committed to delivering exceptional results. I excel in seamlessly integrating APIs and developing robust solutions tailored to your specific requirements. Trust me to bring your ideas to life and create powerful web applications that will exceed your expectations. Let's collaborate and transform your vision into reality.
-          </p>
+          <p>Experienced Web Developer with 5+ years of expertise in web development, skilled in HTML, CSS, JavaScript, jQuery, Angular JS, React JS, Firebase, Node.js, PHP, MySQL, and WordPress.Seeking challenging opportunities to drive technological advancements in web development.</p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>

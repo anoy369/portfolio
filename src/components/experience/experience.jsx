@@ -16,7 +16,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>                
                 <h4>HTML</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
             
@@ -24,7 +24,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
             
@@ -32,7 +32,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small>Experienced</small>
+                <small>4+ years of Experience</small>
               </div>
             </article>
             
@@ -40,7 +40,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Boostrap</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
             
@@ -48,7 +48,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small>Experienced</small>
+                <small>1+ years of Experience</small>
               </div>
             </article>
             
@@ -56,7 +56,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Angular Js</h4>
-                <small>Experienced</small>
+                <small>2+ years of Experience</small>
               </div>
             </article>
             
@@ -64,7 +64,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React Js</h4>
-                <small>Experienced</small>
+                <small>1+ years of Experience</small>
               </div>
             </article>
 
@@ -72,7 +72,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Wordpress</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
           </div>
@@ -86,7 +86,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Firebase</h4>
-                <small>Experienced</small>
+                <small>2+ years of Experience</small>
               </div>
             </article>
             
@@ -94,7 +94,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PHP</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
             
@@ -102,7 +102,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>
 
@@ -110,7 +110,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Wordpress</h4>
-                <small>Experienced</small>
+                <small>5+ years of Experience</small>
               </div>
             </article>       
                 
@@ -118,7 +118,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node js</h4>
-                <small>Experienced</small>
+                <small>1+ years of Experience</small>
               </div>
             </article>
           </div>
