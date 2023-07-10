@@ -19,10 +19,11 @@
 }
 
 .about__me-image{
-    border-radius: 2rem;
+    border-radius: 100%;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    background-color:var(--color-bg-variant) ;
 }
 
 .about__me-image:hover{
