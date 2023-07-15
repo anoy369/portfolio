@@ -17,7 +17,7 @@ const portfolio=[
         id: 1,
         image: doctor,
         title: 'Doctors Directory',
-        demo: 'https://doctors.anoy369.com/,
+        demo: 'https://doctors.anoy369.com/',
         buildWith: 'WordPress'
     },
     {
