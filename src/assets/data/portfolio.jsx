@@ -17,7 +17,7 @@ const portfolio=[
         id: 1,
         image: doctor,
         title: 'Doctors Directory',
-        demo: 'https://genesisobgyn.net/',
+        demo: 'https://doctors.anoy369.com/,
         buildWith: 'WordPress'
     },
     {
@@ -33,7 +33,7 @@ const portfolio=[
         image: netflix,
         title: 'Streaming Application',
         github: 'https://github.com/anoy369/react-netflix',
-        buildWith: 'React js + TMDB fee API'
+        buildWith: 'React js + TMDB API'
     },
     {
         id: 4,
