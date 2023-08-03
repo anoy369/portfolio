@@ -10,7 +10,8 @@ const portfolio=[
         image: realEstate,
         title: 'Real Estate',
         demo: 'https://sixthandrio.com/',
-        buildWith: 'WordPress'
+        buildWith: 'WordPress',
+        forSell: false,
 
     },
     {
@@ -18,14 +19,16 @@ const portfolio=[
         image: doctor,
         title: 'Doctors Directory',
         demo: 'https://doctors.anoy369.com/',
-        buildWith: 'WordPress'
+        buildWith: 'WordPress',
+        forSell: true,
     },
     {
         id: 3,
         image: flagship,
         title: 'e-commerce',
         demo: 'https://flagshipstorebd.com/',
-        buildWith: 'WordPress'
+        buildWith: 'WordPress',
+        forSell: false,
 
     },
     {
@@ -33,14 +36,16 @@ const portfolio=[
         image: netflix,
         title: 'Streaming Application',
         github: 'https://github.com/anoy369/react-netflix',
-        buildWith: 'React js + TMDB API'
+        buildWith: 'React js + TMDB API',
+        forSell: true,
     },
     {
         id: 4,
         image: chess,
         title: 'Multiplayer chess with video calling',
         github: 'https://github.com/anoy369/multimedia-chess',
-        buildWith: 'React js + Node js'
+        buildWith: 'React js + Node js',
+        forSell: true,
 
     }
 ]

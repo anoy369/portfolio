@@ -10,7 +10,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          portfolio.map(({id, image, title, github, demo, buildWith}) => {
+          portfolio.map(({id, image, title, github, demo, buildWith, forSell}) => {
             return(
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -21,6 +21,7 @@ const Portfolio = () => {
                 <div className="portfolio__item-cta">       
                   {github ? <a href={github} className="btn" target="_blank">Github</a> : ''}
                   {demo ? <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a> : ''}
+                  {forSell ? <a href="#contact" className="btn btn-primary" target="_blank">Contact Now</a> : ''}
                   
                 </div>
               </article>
