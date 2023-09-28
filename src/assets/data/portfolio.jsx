@@ -4,6 +4,7 @@ import netflix from '../netflixclone.png'
 import flagship from '../flagship.jpg'
 import chess from '../chess.jpg'
 import realEstate from '../Real estate.png'
+import devhoch from '../Dev-Hoch-LMS.png'
 const portfolio=[
     {
         id: 6,
@@ -24,6 +25,15 @@ const portfolio=[
     },
     {
         id: 3,
+        image: devhoch,
+        title: 'Dev-Hoch',
+        demo: 'https://dev-hoch.com/',
+        buildWith: 'WordPress',
+        forSell: false,
+
+    },
+    {
+        id: 4,
         image: flagship,
         title: 'e-commerce',
         demo: 'https://flagshipstorebd.com/',
@@ -32,7 +42,7 @@ const portfolio=[
 
     },
     {
-        id: 2,
+        id: 5,
         image: netflix,
         title: 'Streaming Application',
         github: 'https://github.com/anoy369/react-netflix',
@@ -40,7 +50,7 @@ const portfolio=[
         forSell: true,
     },
     {
-        id: 4,
+        id: 6,
         image: chess,
         title: 'Multiplayer chess with video calling',
         github: 'https://github.com/anoy369/multimedia-chess',
