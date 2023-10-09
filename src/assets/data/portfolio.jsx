@@ -26,7 +26,7 @@ const portfolio=[
     {
         id: 3,
         image: devhoch,
-        title: 'Dev-Hoch',
+        title: 'Learning Management System',
         demo: 'https://dev-hoch.com/',
         buildWith: 'WordPress',
         forSell: false,
