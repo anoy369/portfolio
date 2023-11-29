@@ -31,8 +31,8 @@ jobs:
           server: ftp.anoy369.com # Replace with your Hostinger server
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./public_html/
-          remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
+          local_dir: ./public_html/anoy/
+          remote_dir: /public_html/ # Replace with your Hostinger website directory
           exclude: |
             public/**
             src/**
