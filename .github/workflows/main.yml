@@ -24,7 +24,7 @@ jobs:
 
       # - name: Move build files to public_html directory
         run: |
-          mv build/* files/public_html/anoy/
+          mv build/* ./
           rmdir build
 
       - name: Deploy to Hostinger
@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: ./public_html/
-          remote_dir: /anoy/ # Specify the target directory on Hostinger
+          remote_dir: /public_html/ # Specify the target directory on Hostinger
           exclude: |
             public/**
             src/**
