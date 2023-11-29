@@ -16,16 +16,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3.3.0
 
-      # Uncomment this section if you need to install dependencies and build the React project
-      # - name: Install dependencies and build
-      #   run: |
-      #     npm install
-      #     npm run build
+      - name: Install dependencies and build
+        run: |
+          npm ci
+          npm run build
 
       - name: Move build files to public_html directory
         run: |
-          mkdir -p public_html
-          rsync -a --delete build/ public_html/
+          mv build/* ./public_html/
+          rmdir build
 
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
@@ -34,7 +33,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local_dir: ./public_html/
-          remote_dir: /anoy/ # Specify the target directory on Hostinger
+          remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
           exclude: |
             public/**
             src/**
