@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node-version: [16.0]
+        node-version: [16.x]
 
     steps:
       # Checkout the code from the GitHub repository
@@ -21,10 +21,10 @@ jobs:
       #     npm run build
 
        # Move the build files to the public_html directory and remove the build director
-      # - name: Move build files to public_html directory
-      #   run: |
-      #     mv build/* ./
-      #     rmdir build
+      - name: Move build files to public_html directory
+        run: |
+          mv build/* ./
+          rmdir build
 
       # Deploy the public_html files to Hostinger using FTP
       - name: Deploy to Hostinger
@@ -33,14 +33,12 @@ jobs:
           server: ftp.anoy369.com # Replace with your Hostinger server
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./public_html/anoy/ # Specify the path to your "anoy" directory
-          remote_dir: /public_html/ # Set this to the parent directory of your "anoy" directory on Hostinger
+          local_dir: ./
+          remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
           exclude: |
-            public/**              # Make sure this directory exists in the specified path
-            src/**                 # Make sure this directory exists in the specified path
-            .gitignore             # Make sure this file exists in the specified path
-            package-lock.json       # Make sure this file exists in the specified path
-            package.json            # Make sure this file exists in the specified path
-            README.md               # Make sure this file exists in the specified path
-
-
+            public/**
+            src/**
+            .gitignore
+            package-lock.json
+            package.json
+            README.md
