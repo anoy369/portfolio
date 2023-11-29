@@ -32,9 +32,11 @@ jobs:
           local_dir: ./public_html/anoy/
           remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
           exclude: |
+            .git/**
             public/**
             src/**
             .gitignore
             package-lock.json
             package.json
             README.md
+
