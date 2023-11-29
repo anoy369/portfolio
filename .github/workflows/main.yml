@@ -21,10 +21,10 @@ jobs:
       #     npm run build
 
        # Move the build files to the public_html directory and remove the build director
-      - name: Move build files to public_html directory
-        run: |
-          mv build/* ./
-          rmdir build
+      # - name: Move build files to public_html directory
+      #   run: |
+      #     mv build/* ./
+      #     rmdir build
 
       # Deploy the public_html files to Hostinger using FTP
       - name: Deploy to Hostinger
