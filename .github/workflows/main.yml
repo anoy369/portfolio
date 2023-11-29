@@ -15,10 +15,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3.3.0
       
-      # Move the build files to the public_html/anoy directory and remove the build directory
-      - name: Move build files to public_html/anoy directory
+      # Install dependencies and build the React project
+      # - name: Install dependencies and build
+      #   run: |
+      #     npm run build
+
+       # Move the build files to the public_html directory and remove the build director
+      - name: Move build files to public_html directory
         run: |
-          mv build/* public_html/anoy/
+          mv build/* ./
           rmdir build
 
       # Deploy the public_html files to Hostinger using FTP
@@ -28,8 +33,8 @@ jobs:
           server: ftp.anoy369.com # Replace with your Hostinger server
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./public_html/anoy/
-          remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
+          local_dir: ./public_html/
+          remote_dir: /public_html/ # Replace with your Hostinger website directory
           exclude: |
             public/**
             src/**
