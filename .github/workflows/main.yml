@@ -16,10 +16,10 @@ jobs:
         uses: actions/checkout@v3.3.0
       
       # Move the build files to the public_html directory and remove the build directory
-      - name: Move build files to public_html directory
-        run: |
-          mv build/* ./
-          rmdir build
+      # - name: Move build files to public_html directory
+      #   run: |
+      #     mv build/* ./
+      #     rmdir build
 
       # Deploy the public_html files to Hostinger using FTP
       - name: Deploy to Hostinger
