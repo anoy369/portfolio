@@ -36,10 +36,11 @@ jobs:
           local_dir: ./public_html/anoy/ # Specify the path to your "anoy" directory
           remote_dir: /public_html/ # Set this to the parent directory of your "anoy" directory on Hostinger
           exclude: |
-            public/**
-            src/**
-            .gitignore
-            package-lock.json
-            package.json
-            README.md
+            public/**              # Make sure this directory exists in the specified path
+            src/**                 # Make sure this directory exists in the specified path
+            .gitignore             # Make sure this file exists in the specified path
+            package-lock.json       # Make sure this file exists in the specified path
+            package.json            # Make sure this file exists in the specified path
+            README.md               # Make sure this file exists in the specified path
+
 
