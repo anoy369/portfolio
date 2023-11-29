@@ -33,8 +33,8 @@ jobs:
           server: ftp.anoy369.com # Replace with your Hostinger server
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: ./public_html/anoy/
-          remote_dir: /public_html/anoy/ # Replace with your Hostinger website directory
+          local_dir: ./public_html/anoy/ # Specify the path to your "anoy" directory
+          remote_dir: /public_html/ # Set this to the parent directory of your "anoy" directory on Hostinger
           exclude: |
             public/**
             src/**
@@ -42,3 +42,4 @@ jobs:
             package-lock.json
             package.json
             README.md
+
