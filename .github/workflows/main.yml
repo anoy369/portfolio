@@ -22,8 +22,10 @@ jobs:
        # Move the build files to the public_html directory and remove the build directory
       - name: Move build files to public_html directory
         run: |
-          mv build/* ./anoy/ 
-         
+          mkdir -p anoy
+          mv build/* ./anoy/
+          rm -rf build
+               
       # Deploy the public_html files to Hostinger using FTP
       - name: Deploy to Hostinger
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
