@@ -14,18 +14,13 @@ jobs:
       # Checkout the code from the GitHub repository
       - name: Checkout code
         uses: actions/checkout@v3.3.0
-      
-      # Install dependencies and build the React project
-      - name: Install dependencies and build
-        run: |
-          npm install
-          npm run build
 
-       # Move the build files to the public_html directory and remove the build directory
+      # Move the build files to the public_html directory and remove the build directory
       - name: Move build files to public_html directory
         run: |
-          mv build/* ./
-          rmdir build
+          mkdir -p public_html/anoy
+          mv build/* public_html/anoy/
+          rm -r build
 
       # Deploy the public_html files to Hostinger using FTP
       - name: Deploy to Hostinger
