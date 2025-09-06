@@ -1,6 +1,7 @@
-import React from 'react'
+// Services.jsx
+import React from 'react';
 import './services.css'
-import {BiCheck} from 'react-icons/bi'
+import { BiCheck } from 'react-icons/bi';
 
 const Services = () => {
   return (
@@ -9,6 +10,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
+        {/* Frontend Development */}
         <article className="service">
           <div className="service__head">
             <h3>Frontend Development</h3>
@@ -32,7 +34,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Cloning Website</p>
+              <p>Website Cloning</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -40,7 +42,8 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        
+
+        {/* Web Development */}
         <article className="service">
           <div className="service__head">
             <h3>Web Development</h3>
@@ -48,7 +51,7 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Online Store</p>
+              <p>Online Store Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -56,27 +59,27 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Content Management System</p>
+              <p>Content Management Systems (CMS)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Learning Management System</p>
+              <p>Learning Management Systems (LMS)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Hotel Management System</p>
+              <p>Hotel Management Systems</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>API Development</p>
+              <p>Custom API Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress Theme Development</p>
+              <p>WordPress Theme Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress Plugin Development</p>
+              <p>WordPress Plugin Development</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -84,49 +87,50 @@ const Services = () => {
             </li>
           </ul>
         </article>
-        
+
+        {/* Other Services */}
         <article className="service">
           <div className="service__head">
-            <h3>Others</h3>
+            <h3>Additional Services</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>API Integration</p>
+              <p>Third-Party API Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress API Integration</p>
+              <p>WordPress REST API Integration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress Migration</p>
+              <p>WordPress Migration</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress Malware Cleaning</p>
+              <p>Malware Removal & Security Hardening</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Wordpress Database Cleaning</p>
+              <p>Database Optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Speed Optimization</p>
+              <p>Performance & Speed Optimization</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Onsite SEO</p>
+              <p>On-Page SEO Implementation</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Website Customization</p>
+              <p>Custom Website Enhancements</p>
             </li>
           </ul>
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Services
+export default Services;
